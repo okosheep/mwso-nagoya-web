@@ -6,12 +6,12 @@ export default function GlobalNavigation() {
     <Nav>
       <Ul>
         <li>
-          <Link href="/">
+          <Link href="/" passHref>
             <Anchor>お知らせ</Anchor>
           </Link>
         </li>
         <li>
-          <Link href="/about">
+          <Link href="/about" passHref>
             <Anchor>mwso-nagoyaとは</Anchor>
           </Link>
         </li>
